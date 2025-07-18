@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kwzSoFRViffIpmRG57yeLJukDpKTZMsGzV5M9sdx1Arl0TQviG0g7xR7uDzmRWcmsoVgev0WZ0TSoEMpZKjiIQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\irena\\OneDrive\\Desktop\\ukol4\\MySort\\MySort.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\irena\\.nuget\\packages\\fsharp.core\\6.0.2\\fsharp.core.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

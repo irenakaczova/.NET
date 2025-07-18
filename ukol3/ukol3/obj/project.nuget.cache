@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8TXAHf5o+ow7UcaU8OYvlFXg9HmgwgelEn9lqUV7KEXN2BjO/Sht8kM8PnL675eTWItZtD7JOH+kdEJaAknAnA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\irena\\OneDrive\\Desktop\\mgr\\prvak_zima\\PNE\\ukol3\\ukol3\\ukol3.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\irena\\.nuget\\packages\\fsharp.core\\8.0.200\\fsharp.core.8.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}

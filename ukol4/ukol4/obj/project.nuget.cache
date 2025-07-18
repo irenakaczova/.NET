@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1060XjYI8orwMGMZHGJxWoG/oujv/7rIvn1RKrwxN+2aJp8Yl90ADj3quXGzJy9gooT04YoW1gQbYC+8mOeAQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\irena\\OneDrive\\Desktop\\ukol4\\ukol4\\ukol4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\irena\\.nuget\\packages\\fsharp.core\\6.0.2\\fsharp.core.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
