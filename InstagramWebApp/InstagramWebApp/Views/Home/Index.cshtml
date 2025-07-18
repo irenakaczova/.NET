@@ -1,0 +1,27 @@
+﻿@model List<InstagramWebApp.Models.Post>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+@foreach (var post in Model)
+{
+    <div>
+        <h3>@post.Text</h3>
+        @if (post.User != null)
+        {
+            <p>Posted by: @post.User.UserName</p>
+            <p>Posted on: @post.ReleaseDate.ToShortDateString()</p>
+
+            @if (User.Identity != null && User.Identity.IsAuthenticated && User.Identity.Name == post.User.UserName)
+            {
+                <p>
+                    <a asp-controller="Post" asp-action="Edit" asp-route-id="@post.Id">Edit</a> |
+                    <a asp-controller="Post" asp-action="Delete" asp-route-id="@post.Id">Delete</a> |
+                    <a asp-controller="Post" asp-action="Comments" asp-route-postId="@post.Id">Comments</a> |
+                    <a asp-controller="Post" asp-action="AddComment" asp-route-postId="@post.Id">Add Comment</a>
+                </p>
+            }
+        }
+    </div>
+}

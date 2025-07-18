@@ -1,0 +1,13 @@
+﻿@model InstagramWebApp.Models.Post
+
+<h2>Delete Post</h2>
+
+<p>Are you sure you want to delete this post?</p>
+<p>
+    <strong>Post Text:</strong> @Model.Text
+</p>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,21 @@
+﻿@model InstagramWebApp.Models.Post
+
+<h2>Edit Post</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Text">Post Text:</label>
+        <textarea asp-for="Text" class="form-control" required></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="Tags">Tags (comma-separated):</label>
+        <input asp-for="Tags" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ImgPath">Upload Image:</label>
+        <input asp-for="ImgPath" type="file" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>

@@ -1,0 +1,14 @@
+﻿@model InstagramWebApp.Models.Post
+
+<h2>Comments for Post</h2>
+
+<div>
+    <h3>@Model.Text</h3>
+    <h4>Comments:</h4>
+    <ul>
+        @foreach (var comment in Model.Comments)
+        {
+            <li>@comment.Text</li>
+        }
+    </ul>
+</div>
